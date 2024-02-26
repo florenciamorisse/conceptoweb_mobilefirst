@@ -147,7 +147,7 @@ body {
 /*****************MAIN***********************/
 .parte01{  
   padding: 5.3rem 2rem 1rem 2rem;
-  height: 385px;
+  height: 450px;
 }
 .parte01_txt{
   position: relative;
@@ -195,6 +195,41 @@ body {
   top: -4.5rem;
   z-index: 1;
 }
+.contenedor_hacemos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.text_hacemos{
+  text-align: center;
+  margin-top: -55px;
+}
+.btn_escribinos{
+  background-color: var(--black);
+  color: var(--grey);
+  border-radius: 20px;
+  margin-top: 1rem;
+  height: 50px;
+  width: 250px;
+}
+.sobre_papel_amarillo, .sobre_papel_negro {
+  height: 25px;
+  margin: 5px;
+}
+.sobre_papel_negro{
+  display: none;
+}
+.btn_escribinos:hover {
+  background-color: var(--yellow);
+  color: var(--black);
+}
+.btn_escribinos:hover .sobre_papel_negro{
+  display: inline-block;
+}
+.btn_escribinos:hover .sobre_papel_amarillo{
+  display: none;
+}
+
 
 /**********Acá termina el Main***********/
 
