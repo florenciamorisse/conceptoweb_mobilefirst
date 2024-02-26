@@ -21,7 +21,7 @@ body {
   margin: 0;
   padding: 0;
 }
-/*******HEADER******/
+/*****************HEADER***********************/
 .header {
   padding-bottom: 0rem;
   padding-top: 0;
@@ -63,7 +63,7 @@ body {
   flex-wrap: wrap;
   padding-left: 2rem;
   padding-right: 2rem;
-  width: 100%;
+  
 }
 .header_oscuro a {
   text-decoration: none;
@@ -143,6 +143,61 @@ body {
 .navigation ul li a:hover {
   background: var(--green);
 }
+/**********Acá termina el header***********/
+/*****************MAIN***********************/
+.parte01{  
+  padding: 5.3rem 2rem 1rem 2rem;
+  height: 385px;
+}
+.parte01_txt{
+  position: relative;
+  top: -18rem;
+}
+.flecha{
+  position: relative;
+  left: -11.5rem;
+  top: 1rem;
+  width: 100%;
+  height: auto;
+}
+.titulo{
+  text-transform: uppercase;
+  text-align: center;
+  font-family: var(--font-Hind);
+  font-weight: 600;
+  text-shadow: -4px 2px 2px rgba(0, 0, 0, 0.25);
+  font-size: clamp(2.25rem, 5vw, 3.75rem);
+  margin: 0;
+  line-height: 110%; 
+}
+.frase{
+  text-align: center;
+  font-family: var(--font-Hind);
+  font-size: clamp(1rem, 5vw, 1.5rem);
+  margin: 20px 0 20px 0;
+  line-height: 170%;
+  padding-left: 3.75rem;
+  padding-right:3.125rem ;  
+}
+.container_fotos_principales{
+  display: flex;
+  justify-content:center;
+}
+.foto{
+  height: 150px;
+  padding: 10px;
+  z-index: 3;
+}
+.puntosMobile{
+  height: 100px;
+  position: relative;
+  left: 40%;
+  top: -4.5rem;
+  z-index: 1;
+}
+
+/**********Acá termina el Main***********/
+
 
 /*******tablet*******/
 @media only screen and (min-width: 768px) {
