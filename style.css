@@ -152,24 +152,9 @@ body {
   height: 750px;
   width: 100%; 
 }
-/* .parte01_txt{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  
-} */
-/* .flecha{
-  position: relative;
-  left: -11.5rem;
-  top: 1rem;
-  width: 100%;
-  height: auto;
-} */
 .titulo{
   text-transform: uppercase;
   text-align: center;
-  /* color: var(--black);
-  font-family: var(--font-Montserrat); */
   font-weight: 600;
   text-shadow: -4px 2px 2px rgba(0, 0, 0, 0.25);
   font-size: clamp(2.25rem, 5vw, 3.75rem);
@@ -193,6 +178,22 @@ body {
   height: 150px;
   padding: 10px;
   z-index: 3;
+}
+.foto02 {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    
+  }
+
+  to {
+    margin-left: 0%;
+    
+  }
 }
 .puntosMobile{
   height: 100px;
@@ -316,6 +317,7 @@ hr:not([size]) {
   left: 56%;
   top: -6.5rem;
 }
+/**********PARTE 5**************/
 
 
 /**********Acá termina el Main***********/
