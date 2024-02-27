@@ -236,7 +236,7 @@ body {
   display: none;
 }
 /**********PARTE 2**************/
-.parte02, .parte03{
+.parte02, .parte03, .parte04{
   display: flex;
   flex-direction: column;
   width: 80%;
@@ -257,7 +257,7 @@ hr:not([size]) {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.container_visibilidad, .container_credibilidad{
+.container_visibilidad, .container_credibilidad, .container_comunicacion{
   display: flex;
   flex-direction: row;
   margin-top: 45px;
@@ -292,13 +292,29 @@ hr:not([size]) {
   margin-left: 3.75rem;
   z-index: 3;
 }
-.txt_vertical02{
+.txt_vertical02, .txt_vertical03{
   text-align: start;
-  padding-top: 1rem;
+  padding-top: 1.2rem;
 }
 .puntosMobile03{
   left: 19%;
   top: -5.3rem;
+}
+
+/**********PARTE 4**************/
+.parte04{
+  margin-top: -50px;
+}
+.foto06{
+  position: relative;
+    height: 265px;
+    top: -13px;
+    /* margin-left: 3.75rem; */
+    z-index: 3;
+}
+.puntosMobile04{
+  left: 56%;
+  top: -6.5rem;
 }
 
 
