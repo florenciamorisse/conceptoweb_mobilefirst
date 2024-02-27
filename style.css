@@ -17,10 +17,11 @@ body {
   font-family: var(--font-Montserrat);
 }
 
-.container {
+
+/* .container {
   margin: 0;
   padding: 0;
-}
+} */
 /*****************HEADER***********************/
 .header {
   padding-bottom: 0rem;
@@ -145,10 +146,11 @@ body {
 }
 /**********Acá termina el header***********/
 /*****************MAIN***********************/
+/**********PARTE 1**************/
 .parte01{  
   padding-top: 6.5rem;  
-  height: 370px;
-  max-width: 450px; 
+  height: 750px;
+  width: 100%; 
 }
 /* .parte01_txt{
   display: flex;
@@ -166,8 +168,8 @@ body {
 .titulo{
   text-transform: uppercase;
   text-align: center;
-  color: var(--black);
-  font-family: var(--font-Hind);
+  /* color: var(--black);
+  font-family: var(--font-Montserrat); */
   font-weight: 600;
   text-shadow: -4px 2px 2px rgba(0, 0, 0, 0.25);
   font-size: clamp(2.25rem, 5vw, 3.75rem);
@@ -232,6 +234,71 @@ body {
 }
 .btn_escribinos:hover .sobre_papel_amarillo{
   display: none;
+}
+/**********PARTE 2**************/
+.parte02, .parte03{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  text-align: center;
+}
+hr {
+  width: 50%;
+  background-color: var(--yellow);
+  margin: auto;
+  /* padding: 2px; */
+}
+hr:not([size]) {
+  height: 1.2px;
+  border-top: none;
+  opacity: 1;
+}
+.txt{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.container_visibilidad, .container_credibilidad{
+  display: flex;
+  flex-direction: row;
+  margin-top: 45px;
+}
+.txt_vertical {  
+  text-transform: uppercase;
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  margin: 0;
+  font-size: 0.82rem;
+}
+.foto03{
+  height: 170px;
+  position: relative;
+  z-index: 3;
+  /* left: -20px; */
+}
+.puntosMobile02{
+  top: -190px;
+  left: 215px;
+}
+/**********PARTE 3**************/
+.parte03{
+  margin-top: -70px;
+}
+.container_credibilidad{
+  margin-top: 10px;
+}
+.foto05{
+  position: relative;
+  height: 330px;
+  margin-left: 3.75rem;
+  z-index: 3;
+}
+.txt_vertical02{
+  text-align: start;
+  padding-top: 1rem;
+}
+.puntosMobile03{
+  left: 19%;
+  top: -5.3rem;
 }
 
 
