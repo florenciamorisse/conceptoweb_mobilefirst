@@ -146,23 +146,27 @@ body {
 /**********Acá termina el header***********/
 /*****************MAIN***********************/
 .parte01{  
-  padding: 5.3rem 2rem 1rem 2rem;
-  height: 450px;
+  padding-top: 6.5rem;  
+  height: 370px;
+  max-width: 450px; 
 }
-.parte01_txt{
-  position: relative;
-  top: -18rem;
-}
-.flecha{
+/* .parte01_txt{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+} */
+/* .flecha{
   position: relative;
   left: -11.5rem;
   top: 1rem;
   width: 100%;
   height: auto;
-}
+} */
 .titulo{
   text-transform: uppercase;
   text-align: center;
+  color: var(--black);
   font-family: var(--font-Hind);
   font-weight: 600;
   text-shadow: -4px 2px 2px rgba(0, 0, 0, 0.25);
@@ -175,7 +179,7 @@ body {
   font-family: var(--font-Hind);
   font-size: clamp(1rem, 5vw, 1.5rem);
   margin: 20px 0 20px 0;
-  line-height: 170%;
+  line-height: 140%;
   padding-left: 3.75rem;
   padding-right:3.125rem ;  
 }
@@ -198,7 +202,7 @@ body {
 .contenedor_hacemos{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center;  
 }
 .text_hacemos{
   text-align: center;
