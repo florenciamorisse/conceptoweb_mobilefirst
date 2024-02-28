@@ -237,11 +237,12 @@ body {
   display: none;
 }
 /**********PARTE 2**************/
-.parte02, .parte03, .parte04{
+.parte02, .parte03, .parte04, .parte05{
   display: flex;
   flex-direction: column;
   width: 80%;
   text-align: center;
+  align-items: center;
 }
 hr {
   width: 50%;
@@ -318,7 +319,43 @@ hr:not([size]) {
   top: -6.5rem;
 }
 /**********PARTE 5**************/
+.parte05{
+  margin-top: -75px;
+  text-align: center;
+}
+.txt_somos {
+  font-family: var(--font-Hind);
+  font-size: 32px;
+  font-weight: 200;
+  letter-spacing: 0.5rem;
+  margin: 20px 0 0 0;  
+}
+.logotipo{
+  width: 75%;
+}
+.circulo {
+  width: 26rem;
+  height: 26rem;
+  border-radius: 50%;
+  background: var(--yellow);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* margin: 0px auto; */
+  /* padding: 3%; */
+  box-shadow: -9px 9px 14px rgba(16, 16, 20, 0.35);
+  /* position: relative; */
+  margin-top: 50px;
+}
 
+.circulo > h2 {
+  font-family: var(--font-Montserrat);
+  font-weight: 400;
+  color: var(--black);
+  font-size: 1.3rem;
+}
 
 /**********Acá termina el Main***********/
 
