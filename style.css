@@ -241,7 +241,8 @@ body {
 .parte03,
 .parte04,
 .parte05,
-.container_img07
+.container_img07,
+.pasos
 {
   display: flex;
   flex-direction: column;
@@ -255,7 +256,7 @@ hr {
   margin: auto;
 }
 hr:not([size]) {
-  height: 1.2px;
+  height: 0.5px;
   border-top: none;
   opacity: 1;
 }
@@ -379,21 +380,22 @@ hr:not([size]) {
   margin-left: 88px;
 }
 /**********SERVICIOS**************/
-.servicios{
-  margin-top: -65px;
-  
-}
+
 .linea_corta {
   width: 10%;
   margin: 24px 8px 40px 0;
 }
-.servicios {
+.servicios, .metodologia {
   display: flex;
   font-family: var(--font-Hind);
   font-weight: 600;
   font-size: 20px;
   align-items: center;
   justify-content: center;
+  margin-top: -65px;
+}
+.metodologia{
+  margin-top: -30px;
 }
 .linea_larga {
   width: 80%;
@@ -415,7 +417,6 @@ hr:not([size]) {
   color: var(--grey);
   font-family: var(--font-Montserrat);
   text-align: center;
-  /* height: 565px; */
   box-shadow:-5px 5px 3px rgba(0, 0, 0, 0.25) ;
   margin-left: 50px;
   margin-right: 45px;
@@ -442,6 +443,7 @@ hr:not([size]) {
 }
 .puntos_servicios{
   text-align: right;
+  height: 0;
 }
 .puntos01{
   position: relative;
@@ -458,6 +460,31 @@ hr:not([size]) {
   position: relative;
   top: -920px;
   z-index: 1;
+}
+/**********METODOLOGIAS**************/
+.pasos{
+  position: relative;
+  top: -13px;
+}
+.circulo_numeros{
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  border: 1px solid rgb(141, 136, 136);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-bottom: 10px;
+  /* top: -13px; */
+}
+.numeros{
+  position: relative;
+  top: 7px;
+}
+.txt_pasos{
+  margin-top: 0;
+  margin-bottom: 40px;
 }
 
 /**********Acá termina el Main***********/
