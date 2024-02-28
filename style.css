@@ -82,6 +82,7 @@ body {
   width: 30px;
   height: 30px;
   cursor: pointer;
+  margin-right: 1rem;
 }
 .bars__menu span {
   display: block;
@@ -230,7 +231,7 @@ body {
   color: var(--black);
 }
 .btn_escribinos2:hover {
-  background-color: #495057;
+  background-color: #74787b;
   color: var(--grey); 
   border: none;
   /* border:  1px solid #575a59; */
@@ -381,6 +382,9 @@ hr:not([size]) {
 .btn_escribinos2 {
   position: relative;
   margin-top: -6%;
+}
+.img07{
+  margin-top: -45px;
 }
 
 /**********Acá termina el Main***********/
