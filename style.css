@@ -179,7 +179,7 @@ body {
   padding: 10px;
   z-index: 3;
 }
-.foto02 {
+/* .foto02 {
   animation-duration: 3s;
   animation-name: slidein;
 }
@@ -194,7 +194,7 @@ body {
     margin-left: 0%;
     
   }
-}
+} */
 .puntosMobile{
   height: 100px;
   position: relative;
