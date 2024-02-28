@@ -17,7 +17,6 @@ body {
   font-family: var(--font-Montserrat);
 }
 
-
 /* .container {
   margin: 0;
   padding: 0;
@@ -64,7 +63,6 @@ body {
   flex-wrap: wrap;
   padding-left: 2rem;
   padding-right: 2rem;
-  
 }
 .header_oscuro a {
   text-decoration: none;
@@ -129,11 +127,10 @@ body {
 }
 .navigation {
   width: 100%;
-  
 }
 
-.navigation ul.show {  
-  display: block;   
+.navigation ul.show {
+  display: block;
 }
 .navigation ul li {
   display: block;
@@ -147,34 +144,34 @@ body {
 /**********Acá termina el header***********/
 /*****************MAIN***********************/
 /**********PARTE 1**************/
-.parte01{  
-  padding-top: 6.5rem;  
+.parte01 {
+  padding-top: 6.5rem;
   height: 750px;
-  width: 100%; 
+  width: 100%;
 }
-.titulo{
+.titulo {
   text-transform: uppercase;
   text-align: center;
   font-weight: 600;
   /* text-shadow: -4px 2px 2px rgba(0, 0, 0, 0.25); */
   font-size: clamp(2.25rem, 5vw, 3.75rem);
   margin: 0;
-  line-height: 110%; 
+  line-height: 110%;
 }
-.frase{
+.frase {
   text-align: center;
   font-family: var(--font-Hind);
   font-size: clamp(1rem, 5vw, 1.5rem);
   margin: 20px 0 20px 0;
   line-height: 140%;
   padding-left: 3.75rem;
-  padding-right:3.125rem ;  
+  padding-right: 3.125rem;
 }
-.container_fotos_principales{
+.container_fotos_principales {
   display: flex;
-  justify-content:center;
+  justify-content: center;
 }
-.foto{
+.foto {
   height: 150px;
   padding: 10px;
   z-index: 3;
@@ -195,23 +192,24 @@ body {
     
   }
 } */
-.puntosMobile{
+.puntosMobile {
   height: 100px;
   position: relative;
   left: 40%;
   top: -4.5rem;
   z-index: 1;
 }
-.contenedor_hacemos{
+.contenedor_hacemos {
   display: flex;
   flex-direction: column;
-  align-items: center;  
+  align-items: center;
 }
-.text_hacemos{
+.text_hacemos {
   text-align: center;
   margin-top: -55px;
 }
-.btn_escribinos, .btn_escribinos2{
+.btn_escribinos,
+.btn_escribinos2 {
   background-color: var(--black);
   color: var(--grey);
   border-radius: 25px;
@@ -219,25 +217,35 @@ body {
   height: 50px;
   width: 200px;
 }
-.sobre_papel_amarillo, .sobre_papel_negro {
+.sobre_papel_amarillo,
+.sobre_papel_negro {
   height: 25px;
   margin: 5px;
 }
-.sobre_papel_negro{
+.sobre_papel_negro {
   display: none;
 }
 .btn_escribinos:hover {
   background-color: var(--yellow);
   color: var(--black);
 }
-.btn_escribinos:hover .sobre_papel_negro{
+.btn_escribinos2:hover {
+  background-color: #495057;
+  color: var(--grey); 
+  border: none;
+  /* border:  1px solid #575a59; */
+}
+.btn_escribinos:hover .sobre_papel_negro {
   display: inline-block;
 }
-.btn_escribinos:hover .sobre_papel_amarillo{
+.btn_escribinos:hover .sobre_papel_amarillo {
   display: none;
 }
 /**********PARTE 2**************/
-.parte02, .parte03, .parte04, .parte05{
+.parte02,
+.parte03,
+.parte04,
+.parte05 {
   display: flex;
   flex-direction: column;
   width: 80%;
@@ -255,72 +263,75 @@ hr:not([size]) {
   border-top: none;
   opacity: 1;
 }
-.txt{
+.txt {
   margin-top: 20px;
   margin-bottom: 20px;
   line-height: 180%;
 }
-.container_visibilidad, .container_credibilidad, .container_comunicacion{
+.container_visibilidad,
+.container_credibilidad,
+.container_comunicacion {
   display: flex;
   flex-direction: row;
   margin-top: 45px;
 }
-.txt_vertical {  
+.txt_vertical {
   text-transform: uppercase;
   writing-mode: vertical-lr;
   transform: rotate(180deg);
   margin: 0;
   font-size: 0.82rem;
 }
-.foto03{
+.foto03 {
   height: 170px;
   position: relative;
   z-index: 3;
   /* left: -20px; */
 }
-.puntosMobile02{
+.puntosMobile02 {
   top: -190px;
   left: 215px;
 }
 /**********PARTE 3**************/
-.parte03{
+.parte03 {
   margin-top: -70px;
 }
-.container_credibilidad{
+.container_credibilidad {
   margin-top: 10px;
 }
-.foto05{
+.foto05 {
   position: relative;
   height: 330px;
   margin-left: 3.75rem;
   z-index: 3;
 }
-.txt_vertical02, .txt_vertical03{
+.txt_vertical02,
+.txt_vertical03 {
   text-align: start;
   padding-top: 1.2rem;
 }
-.puntosMobile03{
+.puntosMobile03 {
   left: 19%;
   top: -5.3rem;
 }
 
 /**********PARTE 4**************/
-.parte04{
+.parte04 {
   margin-top: -50px;
 }
-.foto06{
+.foto06 {
   position: relative;
-    height: 265px;
-    top: -13px;
-    /* margin-left: 3.75rem; */
-    z-index: 3;
+  height: 265px;
+  top: -13px;
+  /* margin-left: 3.75rem; */
+  z-index: 3;
 }
-.puntosMobile04{
+.puntosMobile04 {
   left: 56%;
   top: -6.5rem;
 }
 /**********PARTE 5**************/
-.parte05{
+.parte05 {
   margin-top: -75px;
   text-align: center;
 }
@@ -329,9 +340,9 @@ hr:not([size]) {
   font-size: 22px;
   font-weight: 200;
   letter-spacing: 0.1rem;
-  margin: 20px 0 0 0;  
+  margin: 20px 0 0 0;
 }
-.logotipo{
+.logotipo {
   width: 75%;
   margin-top: -4%;
 }
@@ -348,10 +359,11 @@ hr:not([size]) {
   /* margin: 0px auto; */
   /* padding: 3%; */
   box-shadow: -9px 9px 14px rgba(16, 16, 20, 0.35);
-  /* position: relative; */
+  position: relative;
   margin-top: 50px;
+  left: 10px;
 }
-.titulo_diseniamos{
+.titulo_diseniamos {
   position: relative;
   font-size: 35px;
   top: -98px;
@@ -366,13 +378,12 @@ hr:not([size]) {
   margin-top: -88px;
   line-height: 170%;
 }
-.btn_escribinos2{
+.btn_escribinos2 {
   position: relative;
   margin-top: -6%;
 }
 
 /**********Acá termina el Main***********/
-
 
 /*******tablet*******/
 @media only screen and (min-width: 768px) {
