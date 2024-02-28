@@ -419,6 +419,7 @@ hr:not([size]) {
   box-shadow:-5px 5px 3px rgba(0, 0, 0, 0.25) ;
   margin-left: 50px;
   margin-right: 45px;
+  z-index: 3;
 }
 .card_img {
   margin: 30px 0 0 30px;
@@ -439,7 +440,25 @@ hr:not([size]) {
   padding: 25px;
   margin-top: -15px;
 }
-
+.puntos_servicios{
+  text-align: right;
+}
+.puntos01{
+  position: relative;
+  top: -2180px;
+  z-index: 1;
+}
+.puntos02{
+  position: relative;
+  top: -1450px;
+  z-index: 1;
+  left: -175px;
+}
+.puntos03{
+  position: relative;
+  top: -920px;
+  z-index: 1;
+}
 
 /**********Acá termina el Main***********/
 
