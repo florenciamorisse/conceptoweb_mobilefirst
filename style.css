@@ -530,7 +530,7 @@ hr:not([size]) {
   margin-top: 20px;
 }
 form{
-  padding: 50px 55px;
+  padding: 40px 55px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
   border-radius: 25px;
   text-align: center;
@@ -538,6 +538,31 @@ form{
   height: 535px;
   background: rgb(42,41,38);
   background: linear-gradient(29deg, rgba(42,41,38,0.67) 0%, rgba(42,41,38,0.27) 100%);
+}
+.container_redes{
+  display: flex;
+  justify-content: space-around;
+}
+.icon{
+  height: 20px;
+  
+}
+.circulo_redes {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  border: solid 1px var(--yellow);
+  overflow:hidden;
+  background: rgba(0, 0, 0, 0);
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: -10px 4px 1px rgba(0, 0, 0, 0.25);
+  /* position: relative;
+  margin-top: 50px;
+  left: 5px; */
 }
 .input_group{
   display: flex;
@@ -561,7 +586,7 @@ label{
   border: none;
   width: 140px;
   border-radius: 20px;
-  box-shadow: -2px 2px .5px black;
+  box-shadow: -1.2px 2.2px 3px var(--black);
   margin-top: 7%;
 }
 
