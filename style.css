@@ -246,7 +246,8 @@ main{
 .parte05,
 .container_img07,
 .pasos,
-.contacto_container
+.contacto_container,
+.contacto_msj
 {
   display: flex;
   flex-direction: column;
@@ -523,7 +524,7 @@ hr:not([size]) {
 }
 .container_form{
   display: flex;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   /* align-items: center; */
   justify-content: center;
   margin-left: 5%;
@@ -531,8 +532,9 @@ hr:not([size]) {
 }
 form{
   padding: 40px 55px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+  box-shadow: -8px 8px 2px rgba(0, 0, 0, 0.3);
   border-radius: 25px;
+  border: solid thin rgb(74, 74, 74);
   text-align: center;
   width: 340px;
   height: 535px;
@@ -553,7 +555,7 @@ form{
   border-radius: 50%;
   border: solid 1px var(--yellow);
   overflow:hidden;
-  background: rgba(0, 0, 0, 0);
+  background: transparent !important;
   display: flex;
   /* flex-direction: column; */
   justify-content: center;
@@ -588,6 +590,38 @@ label{
   border-radius: 20px;
   box-shadow: -1.2px 2.2px 3px var(--black);
   margin-top: 7%;
+}
+.contacto_msj{
+  margin-top: 30px;
+}
+.rectangulo{
+  background-color: var(--yellow);
+  width: 350px;
+  margin-bottom: 50px;
+  border-radius: 15px;
+}
+.cartel, .cartel2{  
+  display: flex;
+  flex-direction: row;
+  font-size: 16px;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: center;
+ 
+}
+.cartel{
+  padding-top: 15px;
+}
+.cartel2{
+  padding-bottom: 5px;
+}
+.cartel img {
+  height: 20px;
+  padding-right: 0.5%;
+}
+.cartel2 img {
+  height: 20px;
+  padding-right: 0.5%;
 }
 
 
