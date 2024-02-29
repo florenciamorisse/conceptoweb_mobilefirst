@@ -466,19 +466,21 @@ hr:not([size]) {
 }
 .puntos01{
   position: relative;
-  top: -2324px;
+  top: -1900px;
   z-index: 1;
+  left: -50px;
 }
 .puntos02{
   position: relative;
-  top: -1556px;
+  top: -1180px;
   z-index: 1;
-  left: -167px;
+  left: 0px;
 }
 .puntos03{
   position: relative;
-  top: -978px;
+  top: -728px;
   z-index: 1;
+  left: -250px;
 }
 /**********METODOLOGIAS**************/
 .linea_larga02 {
@@ -592,12 +594,13 @@ label{
   margin-top: 7%;
 }
 .contacto_msj{
-  margin-top: 30px;
+  margin-top: 60px;
 }
 .rectangulo{
   background-color: var(--yellow);
   width: 350px;
-  margin-bottom: 80px;
+  margin-bottom: 100px;
+  margin-left: 20px;
   border-radius: 15px;
 }
 .cartel, .cartel2{  
