@@ -597,7 +597,7 @@ label{
 .rectangulo{
   background-color: var(--yellow);
   width: 350px;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
   border-radius: 15px;
 }
 .cartel, .cartel2{  
@@ -623,11 +623,28 @@ label{
   height: 20px;
   padding-right: 0.5%;
 }
-
-
-
 /**********Acá termina el Main***********/
+/**********FOOTER***********/
 
+footer {
+  background-color: var(--black);
+  color: var(--grey);
+  font-size: 14px;
+  padding: 1rem 0;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 4;
+  align-items: center;
+  justify-content: center;
+}
+footer img {
+  height: 20px;
+}
+footer > p {
+  margin: 0;
+}
 /*******tablet*******/
 @media only screen and (min-width: 768px) {
   .header_claro {
