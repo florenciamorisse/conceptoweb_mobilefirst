@@ -73,7 +73,7 @@ main{
   margin-right: 9rem;
 }
 .logo_cabecera {
-  height: 50px;
+  height: 60px;
 }
 
 .bars__menu {
@@ -452,10 +452,11 @@ hr:not([size]) {
 .card-text{
   font-size: 1rem;
   font-weight: 300;
+  margin-bottom: 20px;
 }
 
 .card-body {
-  padding: 25px;
+  padding: 25px 25px 40px 25px;
   margin-top: -15px;
 }
 .puntos_servicios{
@@ -464,18 +465,18 @@ hr:not([size]) {
 }
 .puntos01{
   position: relative;
-  top: -2063px;
+  top: -2324px;
   z-index: 1;
 }
 .puntos02{
   position: relative;
-  top: -1265px;
+  top: -1556px;
   z-index: 1;
-  left: -192px;
+  left: -167px;
 }
 .puntos03{
   position: relative;
-  top: -753px;
+  top: -978px;
   z-index: 1;
 }
 /**********METODOLOGIAS**************/
