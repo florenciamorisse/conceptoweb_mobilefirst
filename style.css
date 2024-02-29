@@ -16,6 +16,9 @@ body {
   color: var(--black);
   font-family: var(--font-Montserrat);
 }
+main{
+  margin-left: 10px;
+}
 
 /*****************HEADER***********************/
 .header {
@@ -70,8 +73,7 @@ body {
   margin-right: 9rem;
 }
 .logo_cabecera {
-  width: 83px;
-  height: 85px;
+  height: 50px;
 }
 
 .bars__menu {
@@ -142,7 +144,7 @@ body {
 /*****************MAIN***********************/
 /**********PARTE 1**************/
 .parte01 {
-  padding-top: 6.5rem;
+  padding-top: 5.5rem;
   height: 750px;
   width: 100%;
 }
@@ -172,6 +174,7 @@ body {
   padding: 10px;
   z-index: 3;
 }
+
 /* .foto02 {
   animation-duration: 3s;
   animation-name: slidein;
@@ -226,7 +229,7 @@ body {
   color: var(--black);
 }
 .btn_escribinos2:hover {
-  background-color: #74787b;
+  background-color: var(--green);
   color: var(--grey); 
   border: none;
 }
@@ -242,7 +245,8 @@ body {
 .parte04,
 .parte05,
 .container_img07,
-.pasos
+.pasos,
+.contacto_container
 {
   display: flex;
   flex-direction: column;
@@ -376,16 +380,15 @@ hr:not([size]) {
   margin-top: -6%;
 }
 .img07{
-  margin-top: -45px;
-  margin-left: 88px;
+  margin: -45px 0 30px 88px;
 }
 /**********SERVICIOS**************/
 
 .linea_corta {
-  width: 10%;
+  width: 15%;
   margin: 24px 8px 40px 0;
 }
-.servicios, .metodologia {
+.servicios, .metodologia, .contacto{
   display: flex;
   font-family: var(--font-Hind);
   font-weight: 600;
@@ -421,8 +424,22 @@ hr:not([size]) {
   margin-left: 50px;
   margin-right: 45px;
   z-index: 3;
+  transition: all .5s ease-out;
 }
-.card_img {
+.card_imgH{
+  display: none;
+}
+.card:hover{
+  background-color: var(--yellow);
+  color: var(--black);
+}
+.card:hover .card_img{
+  display: none;
+}
+.card:hover .card_imgH{
+  display: block;
+}
+.card_img, .card_imgH {
   margin: 30px 0 0 30px;
   width: 65px;
 }
@@ -447,21 +464,29 @@ hr:not([size]) {
 }
 .puntos01{
   position: relative;
-  top: -2180px;
+  top: -2063px;
   z-index: 1;
 }
 .puntos02{
   position: relative;
-  top: -1450px;
+  top: -1265px;
   z-index: 1;
-  left: -175px;
+  left: -192px;
 }
 .puntos03{
   position: relative;
-  top: -920px;
+  top: -753px;
   z-index: 1;
 }
 /**********METODOLOGIAS**************/
+.linea_larga02 {
+  width: 80%;
+  margin: 24px 8px 40px 0px;
+}
+.linea_corta02 {
+  width: 15%;
+  margin: 24px 0 40px 8px;
+}
 .pasos{
   position: relative;
   top: -13px;
@@ -470,13 +495,18 @@ hr:not([size]) {
   width: 4rem;
   height: 4rem;
   border-radius: 50%;
-  border: 1px solid rgb(141, 136, 136);
+  border: 1px solid var(--green);
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
   margin-bottom: 10px;
-  /* top: -13px; */
+  color: var(--black);
+  transition: all 1s ease-out;
+}
+.circulo_numeros:hover{
+  color: var(--grey);
+  background-color: var(--green);
 }
 .numeros{
   position: relative;
@@ -486,6 +516,55 @@ hr:not([size]) {
   margin-top: 0;
   margin-bottom: 40px;
 }
+/**********CONTACTO**************/
+.contacto{
+  margin-top: -1%;
+}
+.container_form{
+  display: flex;
+  min-height: 100vh;
+  /* align-items: center; */
+  justify-content: center;
+  margin-left: 5%;
+  margin-top: 20px;
+}
+form{
+  padding: 50px 55px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  text-align: center;
+  width: 340px;
+  height: 535px;
+  background: rgb(42,41,38);
+  background: linear-gradient(29deg, rgba(42,41,38,0.67) 0%, rgba(42,41,38,0.27) 100%);
+}
+.input_group{
+  display: flex;
+  flex-direction: column;
+  text-align: left; 
+}
+input, textarea {
+  background: transparent;
+  border-radius: 7px;
+  border-width: thin;
+  border-color: var(--black);
+  box-shadow: -.5px .6px 2px #d3d3d3;
+
+}
+label{
+  margin-top: 10px;
+}
+.btn_submit{
+  text-align: center;
+  background-color: var(--yellow);
+  border: none;
+  width: 140px;
+  border-radius: 20px;
+  box-shadow: -2px 2px .5px black;
+  margin-top: 7%;
+}
+
+
 
 /**********Acá termina el Main***********/
 
