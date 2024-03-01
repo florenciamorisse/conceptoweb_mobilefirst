@@ -16,7 +16,7 @@ body {
   color: var(--black);
   font-family: var(--font-Montserrat);
 }
-main{
+main {
   margin-left: 10px;
 }
 
@@ -81,6 +81,7 @@ main{
   height: 30px;
   cursor: pointer;
   margin-right: 1rem;
+  
 }
 .bars__menu span {
   display: block;
@@ -210,6 +211,11 @@ main{
 .btn_escribinos,
 .btn_escribinos2 {
   background-color: var(--black);
+  /* box-shadow: -3px 2px 1px var(--yellow); */
+  box-shadow: inset 0 10px 15px rgba(255, 255, 255, 0.35),
+    inset 0 -10px 15px rgba(0, 0, 0, 0.05),
+    inset 10px 0 15px rgba(0, 0, 0, 0.05),
+    inset -10px 0 15px rgba(0, 0, 0, 0.05), 0 5px 20px rgba(0, 0, 0, 0.1);
   color: var(--grey);
   border-radius: 25px;
   margin-top: 1rem;
@@ -230,7 +236,7 @@ main{
 }
 .btn_escribinos2:hover {
   background-color: var(--green);
-  color: var(--grey); 
+  color: var(--grey);
   border: none;
 }
 .btn_escribinos:hover .sobre_papel_negro {
@@ -239,6 +245,7 @@ main{
 .btn_escribinos:hover .sobre_papel_amarillo {
   display: none;
 }
+
 /**********PARTE 2**************/
 .parte02,
 .parte03,
@@ -247,8 +254,7 @@ main{
 .container_img07,
 .pasos,
 .contacto_container,
-.contacto_msj
-{
+.contacto_msj {
   display: flex;
   flex-direction: column;
   width: 80%;
@@ -287,7 +293,7 @@ hr:not([size]) {
 .foto03 {
   height: 170px;
   position: relative;
-  z-index: 3;  
+  z-index: 3;
 }
 .puntosMobile02 {
   top: -190px;
@@ -356,7 +362,11 @@ hr:not([size]) {
   justify-content: center;
   align-items: center;
   text-align: center;
-  box-shadow: -9px 9px 14px rgba(16, 16, 20, 0.35);
+  /* box-shadow: -9px 9px 14px rgba(16, 16, 20, 0.35); */
+  box-shadow: inset 0 10px 15px rgba(255, 255, 255, 0.35),
+    inset 0 -10px 15px rgba(0, 0, 0, 0.05),
+    inset 10px 0 15px rgba(0, 0, 0, 0.05),
+    inset -10px 0 15px rgba(0, 0, 0, 0.05), 0 5px 20px rgba(0, 0, 0, 0.1);
   position: relative;
   margin-top: 50px;
   left: 5px;
@@ -380,7 +390,7 @@ hr:not([size]) {
   position: relative;
   margin-top: -6%;
 }
-.img07{
+.img07 {
   margin: -45px 0 30px 88px;
 }
 /**********SERVICIOS**************/
@@ -389,7 +399,9 @@ hr:not([size]) {
   width: 15%;
   margin: 24px 8px 40px 0;
 }
-.servicios, .metodologia, .contacto{
+.servicios,
+.metodologia,
+.contacto {
   display: flex;
   font-family: var(--font-Hind);
   font-weight: 600;
@@ -398,17 +410,21 @@ hr:not([size]) {
   justify-content: center;
   margin-top: -65px;
 }
-.metodologia{
+.metodologia {
   margin-top: -30px;
 }
 .linea_larga {
   width: 80%;
   margin: 24px 0 40px 8px;
 }
-.containerCards{
+.containerCards {
   padding: 10px 0 10px 0;
+  /* background-image: url(Assets/bkg_servicios2.png); */
+  background-repeat: no-repeat;
+  /* height: 2510px; */
+  width: auto;
 }
-.cards_container{
+.cards_container {
   width: 100%;
   margin-top: -90px;
   margin-left: 5px;
@@ -416,41 +432,46 @@ hr:not([size]) {
 
 .card {
   border-radius: 30px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+  /* box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px; */
+  box-shadow: inset 0 10px 15px rgba(255, 255, 255, 0.35),
+    inset 0 -10px 15px rgba(0, 0, 0, 0.05),
+    inset 10px 0 15px rgba(0, 0, 0, 0.05),
+    inset -10px 0 15px rgba(0, 0, 0, 0.05), 0 5px 20px rgba(0, 0, 0, 0.1);
   background-color: var(--black);
   color: var(--grey);
   font-family: var(--font-Montserrat);
   text-align: center;
-  box-shadow:-5px 5px 3px rgba(0, 0, 0, 0.25) ;
+  /* box-shadow: -5px 5px 3px rgba(0, 0, 0, 0.25); */
   margin-left: 50px;
   margin-right: 45px;
   z-index: 3;
-  transition: all .5s ease-out;
+  transition: all 0.5s ease-out;
 }
-.card_imgH{
+.card_imgH {
   display: none;
 }
-.card:hover{
+.card:hover {
   background-color: var(--yellow);
   color: var(--black);
 }
-.card:hover .card_img{
+.card:hover .card_img {
   display: none;
 }
-.card:hover .card_imgH{
+.card:hover .card_imgH {
   display: block;
 }
-.card_img, .card_imgH {
+.card_img,
+.card_imgH {
   margin: 30px 0 0 30px;
   width: 65px;
 }
-.card-title{
+.card-title {
   font-size: 1.3rem;
   font-weight: 600;
   margin-bottom: 1.2rem;
   margin-top: 0.6rem;
 }
-.card-text{
+.card-text {
   font-size: 1rem;
   font-weight: 300;
   margin-bottom: 20px;
@@ -460,23 +481,23 @@ hr:not([size]) {
   padding: 25px 25px 40px 25px;
   margin-top: -15px;
 }
-.puntos_servicios{
+.puntos_servicios {
   text-align: right;
   height: 0;
 }
-.puntos01{
+.puntos01 {
   position: relative;
   top: -1900px;
   z-index: 1;
   left: -50px;
 }
-.puntos02{
+.puntos02 {
   position: relative;
   top: -1180px;
   z-index: 1;
   left: 0px;
 }
-.puntos03{
+.puntos03 {
   position: relative;
   top: -728px;
   z-index: 1;
@@ -491,11 +512,11 @@ hr:not([size]) {
   width: 15%;
   margin: 24px 0 40px 8px;
 }
-.pasos{
+.pasos {
   position: relative;
   top: -13px;
 }
-.circulo_numeros{
+.circulo_numeros {
   width: 4rem;
   height: 4rem;
   border-radius: 50%;
@@ -508,23 +529,27 @@ hr:not([size]) {
   color: var(--black);
   transition: all 1s ease-out;
 }
-.circulo_numeros:hover{
+.circulo_numeros:hover {
   color: var(--grey);
   background-color: var(--green);
+  box-shadow: inset 0 10px 15px rgba(255, 255, 255, 0.35),
+    inset 0 -10px 15px rgba(0, 0, 0, 0.05),
+    inset 10px 0 15px rgba(0, 0, 0, 0.05),
+    inset -10px 0 15px rgba(0, 0, 0, 0.05), 0 5px 20px rgba(0, 0, 0, 0.1);
 }
-.numeros{
+.numeros {
   position: relative;
   top: 7px;
 }
-.txt_pasos{
+.txt_pasos {
   margin-top: 0;
   margin-bottom: 40px;
 }
 /**********CONTACTO**************/
-.contacto{
+.contacto {
   margin-top: -1%;
 }
-.container_form{
+.container_form {
   display: flex;
   /* min-height: 100vh; */
   /* align-items: center; */
@@ -532,31 +557,34 @@ hr:not([size]) {
   margin-left: 5%;
   margin-top: 20px;
 }
-form{
+form {
   padding: 40px 55px;
-  box-shadow: -8px 8px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: -7px 7px 1.5px rgba(0, 0, 0, 0.3);
   border-radius: 25px;
   border: solid thin rgb(74, 74, 74);
   text-align: center;
   width: 340px;
   height: 535px;
-  background: rgb(42,41,38);
-  background: linear-gradient(29deg, rgba(42,41,38,0.67) 0%, rgba(42,41,38,0.27) 100%);
+  background: rgb(42, 41, 38);
+  background: linear-gradient(
+    29deg,
+    rgba(42, 41, 38, 0.67) 0%,
+    rgba(42, 41, 38, 0.27) 100%
+  );
 }
-.container_redes{
+.container_redes {
   display: flex;
   justify-content: space-around;
 }
-.icon{
+.icon {
   height: 20px;
-  
 }
 .circulo_redes {
   width: 3rem;
   height: 3rem;
   border-radius: 50%;
   border: solid 1px var(--yellow);
-  overflow:hidden;
+  overflow: hidden;
   background: transparent !important;
   display: flex;
   /* flex-direction: column; */
@@ -568,54 +596,62 @@ form{
   margin-top: 50px;
   left: 5px; */
 }
-.input_group{
+.input_group {
   display: flex;
   flex-direction: column;
-  text-align: left; 
+  text-align: left;
 }
-input, textarea {
+input,
+textarea {
   background: transparent;
   border-radius: 7px;
   border-width: thin;
   border-color: var(--black);
-  box-shadow: -.5px .6px 2px #d3d3d3;
-
+  box-shadow: -0.5px 0.6px 2px #d3d3d3;
 }
-label{
+label {
   margin-top: 10px;
 }
-.btn_submit{
+.btn_submit {
   text-align: center;
   background-color: var(--yellow);
   border: none;
   width: 140px;
   border-radius: 20px;
-  box-shadow: -1.2px 2.2px 3px var(--black);
+  /* box-shadow: -1.2px 2.2px 3px var(--black); */
+  box-shadow: inset 0 10px 15px rgba(255, 255, 255, 0.35),
+    inset 0 -10px 15px rgba(0, 0, 0, 0.05),
+    inset 10px 0 15px rgba(0, 0, 0, 0.05),
+    inset -10px 0 15px rgba(0, 0, 0, 0.05), 0 5px 20px rgba(0, 0, 0, 0.1);
   margin-top: 7%;
 }
-.contacto_msj{
+.contacto_msj {
   margin-top: 60px;
 }
-.rectangulo{
+.rectangulo {
   background-color: var(--yellow);
   width: 350px;
   margin-bottom: 100px;
   margin-left: 20px;
   border-radius: 15px;
+  box-shadow: inset 0 10px 15px rgba(255, 255, 255, 0.35),
+    inset 0 -10px 15px rgba(0, 0, 0, 0.05),
+    inset 10px 0 15px rgba(0, 0, 0, 0.05),
+    inset -10px 0 15px rgba(0, 0, 0, 0.05), 0 5px 20px rgba(0, 0, 0, 0.1);
 }
-.cartel, .cartel2{  
+.cartel,
+.cartel2 {
   display: flex;
   flex-direction: row;
   font-size: 16px;
   padding-left: 20px;
   padding-right: 20px;
   justify-content: center;
- 
 }
-.cartel{
+.cartel {
   padding-top: 15px;
 }
-.cartel2{
+.cartel2 {
   padding-bottom: 5px;
 }
 .cartel img {
