@@ -41,6 +41,9 @@ btn_contacto.addEventListener("click", function close_menu_desplegable(){
 })
 
 btn_abrirModal.addEventListener("click",()=>{
-    modal.showModal()
+    modal.showModal();
 })
+btn_cerrarModal.addEventListener("click",()=>{
+    modal.closeModal();
+} )
 
