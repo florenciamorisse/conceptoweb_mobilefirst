@@ -662,6 +662,12 @@ label {
   height: 20px;
   padding-right: 0.5%;
 }
+.modal{
+  border-radius: 1px solid white;
+}
+#modal::backdrop{
+  background-color: rgba(0,0,0,.55);
+}
 /**********Acá termina el Main***********/
 /**********FOOTER***********/
 
