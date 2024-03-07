@@ -16,9 +16,9 @@ body {
   color: var(--black);
   font-family: var(--font-Montserrat);
 }
-main {
+/* main {
   margin-left: 10px;
-}
+} */
 
 /*****************HEADER***********************/
 .header {
@@ -34,8 +34,13 @@ main {
   align-items: center;
   justify-content: flex-end;
   font-size: 14px;
-  margin: 0.5rem 9rem 0.5rem 0;
+  margin: 0.5rem 0rem 0.5rem 0;
   background-color: var(--grey);
+  padding-top: 0;
+  width: 100%;
+  position: fixed;
+  z-index: 4;
+  right: 5%;
 }
 .header_claro img {
   height: 20px;
@@ -81,7 +86,6 @@ main {
   height: 30px;
   cursor: pointer;
   margin-right: 1rem;
-  
 }
 .bars__menu span {
   display: block;
@@ -662,12 +666,12 @@ label {
   height: 20px;
   padding-right: 0.5%;
 }
-.modal{
+/* .modal{
   border-radius: 1px solid white;
 }
 #modal::backdrop{
   background-color: rgba(0,0,0,.55);
-}
+} */
 /**********Acá termina el Main***********/
 /**********FOOTER***********/
 
@@ -690,10 +694,21 @@ footer img {
 footer > p {
   margin: 0;
 }
+@media only screen and (min-width: 621px) {
+  .puntosMobile02 {
+    left: 60%;
+  }
+  .puntosMobile03 {
+    left: 35%;
+  }
+}
 /*******tablet*******/
 @media only screen and (min-width: 768px) {
   .header_claro {
     display: flex;
+  }
+  .header_oscuro {
+    margin-top: 2.2rem;
   }
 
   .bars__menu {
@@ -701,6 +716,7 @@ footer > p {
   }
   .navigation {
     width: 33%;
+    margin-right: 20px;
   }
   .navigation ul {
     display: flex;
@@ -708,6 +724,54 @@ footer > p {
   }
   .navigation ul li a {
     border-radius: 10px;
+  }
+  .parte01 {
+    padding-top: 7.5rem;
+  }
+  .puntosMobile {
+    left: 45%;
+  }
+  .txt {
+    margin-top: 65px;
+  }
+  .puntosMobile02 {
+    left: 53%;
+  }
+  .puntosMobile03 {
+    left: 35%;
+  }
+  .puntosMobile04 {
+    left: 55%;
+  }
+  .logotipo{
+    width: 50%;
+  }
+  .card01,
+  .card02 {
+    height: 490px;
+  }
+  .card03,
+  .card04 {
+    height: 440px;
+  }
+  .card05,
+  .card06 {
+    height: 565px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .navigation {
+    width: 25%;
+  }
+  .card{
+    width: 300px;
+  }
+  .card01, .card02, .card03{
+    height: 410px;
+  }
+  .card04, .card05, .card06{
+    height: 500px;
   }
 }
 

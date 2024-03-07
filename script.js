@@ -7,9 +7,9 @@ let menu_desplegable= document.getElementById("menu_desplegable");
 let btn_inicio = document.getElementById("btn_inicio");
 let btn_servicios = document.getElementById("btn_servicios");
 let btn_contacto = document.getElementById("btn_contacto");
-let btn_abrirModal= document.getElementById("enviar");
-let btn_cerrarModal= document.getElementById("btn_cerrarModal");
-let modal= document.getElementById("modal")
+// let btn_abrirModal= document.getElementById("enviar");
+// let btn_cerrarModal= document.getElementById("btn_cerrarModal");
+// let modal= document.getElementById("modal");
 
 bar_menu.addEventListener("click", function animateBars(){
     bar1.classList.toggle("closeline1");
@@ -40,10 +40,10 @@ btn_contacto.addEventListener("click", function close_menu_desplegable(){
     bar3.classList.toggle("closeline3");
 })
 
-btn_abrirModal.addEventListener("click",()=>{
-    modal.showModal();
-})
-btn_cerrarModal.addEventListener("click",()=>{
-    modal.closeModal();
-} )
+// btn_abrirModal.addEventListener("click",()=>{
+//     modal.showModal();
+// })
+// btn_cerrarModal.addEventListener("click",()=>{
+//     modal.closeModal();
+// } )
 
