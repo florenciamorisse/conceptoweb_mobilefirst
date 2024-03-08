@@ -16,6 +16,13 @@ body {
   color: var(--black);
   font-family: var(--font-Montserrat);
 }
+
+
+.caveat {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  
+}
 /* main {
   margin-left: 10px;
 } */
