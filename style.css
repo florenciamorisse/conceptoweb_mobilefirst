@@ -6,6 +6,10 @@
   --font-Hind: "Hind", sans-serif;
   --font-Montserrat: "Montserrat", sans-serif;
 }
+::-webkit-scrollbar {
+  display: none;
+}
+
 html {
   scroll-behavior: smooth;
   box-sizing: border-box;
@@ -741,7 +745,7 @@ footer {
   font-size: 14px;
   padding: 1rem 0;
   display: flex;
-  position: fixed;
+  /* position: fixed; */
   bottom: 0;
   width: 100%;
   z-index: 4;
