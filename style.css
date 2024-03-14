@@ -258,7 +258,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .txt_somos {
@@ -337,7 +337,7 @@ body {
   align-items: center;
 }
 .parte02{
-  padding-top: 130px;
+  padding-top: 65px;
 }
 hr {
   width: 30%;
@@ -359,7 +359,7 @@ hr:not([size]) {
 .container_comunicacion {
   display: flex;
   flex-direction: row;
-  margin-top: 45px;
+  margin-top: 40px;
 }
 .txt_vertical {
   text-transform: uppercase;
@@ -436,7 +436,7 @@ hr:not([size]) {
     inset 10px 0 15px rgba(0, 0, 0, 0.05),
     inset -10px 0 15px rgba(0, 0, 0, 0.05), 0 5px 20px rgba(0, 0, 0, 0.1);
   position: relative;
-  margin-top: 50px;
+  margin-top: 65px;
   left: 5px;
 }
 .titulo_diseniamos {
@@ -699,7 +699,7 @@ label {
 .rectangulo {
   background-color: var(--yellow);
   width: 350px;
-  margin-bottom: 100px;
+  margin-bottom: 30px;
   margin-left: 20px;
   border-radius: 15px;
   box-shadow: inset 0 10px 15px rgba(255, 255, 255, 0.35),
@@ -796,7 +796,7 @@ footer > p {
     left: 45%;
   }
   .txt {
-    margin-top: 65px;
+    margin-top: 27px;
   }
   .puntosMobile02 {
     left: 53%;
@@ -812,15 +812,34 @@ footer > p {
   }
   .card01,
   .card02 {
-    height: 490px;
+    height: 400px;
   }
   .card03,
   .card04 {
-    height: 440px;
+    height: 380px;
   }
   .card05,
   .card06 {
-    height: 565px;
+    height: 485px;
+  }
+  .card{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .img07{
+    margin-left: 240px;
+  }
+  .parte01{
+    padding-top: 11.5rem;
+  }
+  .marco{
+    left: 43%;
+  }
+  .txt_somos{
+    margin-bottom: 10px;
+  }
+  .parte02{
+    padding-top: 125px;
   }
 }
 
