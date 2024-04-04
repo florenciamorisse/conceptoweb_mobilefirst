@@ -132,10 +132,6 @@ body {
   padding: 0.5rem;
   transition: all 0.4s linear;
 }
-/* .navigation ul li a:hover {
-  background: rgb(130, 130, 130);
-} */
-
 #bold {
   margin-right: 0;
 }
@@ -152,9 +148,7 @@ body {
   margin: 0 -2rem 0 -2rem;
 }
 
-/* .navigation ul li a:hover {
-  background: var(--green);
-} */
+
 /**********Acá termina el header***********/
 /*****************MAIN***********************/
 /**********PARTE 1**************/
@@ -736,6 +730,9 @@ footer > p {
   }  
   .navigation ul.show {
     display: flex;
+  }
+  .navigation ul li a:hover {
+  font-size: 1.1rem;
   }
   .parte01 {
     padding-top: 7.5rem;
