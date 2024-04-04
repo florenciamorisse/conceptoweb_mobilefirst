@@ -70,7 +70,7 @@ body {
 .header_oscuro {
   background-color: var(--black);
   font-family: var(--font-Hind);
-  font-weight: medium;
+  /* font-weight: medium; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -132,9 +132,9 @@ body {
   padding: 0.5rem;
   transition: all 0.4s linear;
 }
-.navigation ul li a:hover {
+/* .navigation ul li a:hover {
   background: rgb(130, 130, 130);
-}
+} */
 
 #bold {
   margin-right: 0;
@@ -144,7 +144,7 @@ body {
 }
 
 .navigation ul.show {
-  display: block;
+  display: inline;
 }
 .navigation ul li {
   display: block;
@@ -152,9 +152,9 @@ body {
   margin: 0 -2rem 0 -2rem;
 }
 
-.navigation ul li a:hover {
+/* .navigation ul li a:hover {
   background: var(--green);
-}
+} */
 /**********Acá termina el header***********/
 /*****************MAIN***********************/
 /**********PARTE 1**************/
@@ -214,32 +214,6 @@ body {
   position: relative;
   z-index: 2;
 }
-/* .container_fotos_principales {
-  display: flex;
-  justify-content: center;
-} */
-/* .foto {
-  height: 150px;
-  padding: 10px;
-  z-index: 3;
-} */
-
-/* .foto02 {
-  animation-duration: 3s;
-  animation-name: slidein;
-}
-
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-    
-  }
-
-  to {
-    margin-left: 0%;
-    
-  }
-} */
 .puntosMobile {
   height: 100px;
   position: relative;
@@ -275,8 +249,7 @@ body {
 }
 .btn_escribinos,
 .btn_escribinos2 {
-  background-color: var(--black);
-  /* box-shadow: -3px 2px 1px var(--yellow); */
+  background-color: var(--black);  
   box-shadow: inset 0 10px 15px rgba(255, 255, 255, 0.35),
     inset 0 -10px 15px rgba(0, 0, 0, 0.05),
     inset 10px 0 15px rgba(0, 0, 0, 0.05),
@@ -423,7 +396,6 @@ hr:not([size]) {
   justify-content: center;
   align-items: center;
   text-align: center;
-  /* box-shadow: -9px 9px 14px rgba(16, 16, 20, 0.35); */
   box-shadow: inset 0 10px 15px rgba(255, 255, 255, 0.35),
     inset 0 -10px 15px rgba(0, 0, 0, 0.05),
     inset 10px 0 15px rgba(0, 0, 0, 0.05),
@@ -480,9 +452,7 @@ hr:not([size]) {
 }
 .containerCards {
   padding: 10px 0 10px 0;
-  /* background-image: url(Assets/bkg_servicios2.png); */
   background-repeat: no-repeat;
-  /* height: 2510px; */
   width: auto;
 }
 .cards_container {
@@ -493,7 +463,6 @@ hr:not([size]) {
 
 .card {
   border-radius: 30px;
-  /* box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px; */
   box-shadow: inset 0 10px 15px rgba(255, 255, 255, 0.35),
     inset 0 -10px 15px rgba(0, 0, 0, 0.05),
     inset 10px 0 15px rgba(0, 0, 0, 0.05),
@@ -502,7 +471,6 @@ hr:not([size]) {
   color: var(--grey);
   font-family: var(--font-Montserrat);
   text-align: center;
-  /* box-shadow: -5px 5px 3px rgba(0, 0, 0, 0.25); */
   margin-left: 50px;
   margin-right: 45px;
   z-index: 3;
@@ -612,8 +580,6 @@ hr:not([size]) {
 }
 .container_form {
   display: flex;
-  /* min-height: 100vh; */
-  /* align-items: center; */
   justify-content: center;
   margin-left: 5%;
   margin-top: 20px;
@@ -648,14 +614,10 @@ form {
   overflow: hidden;
   background: transparent !important;
   display: flex;
-  /* flex-direction: column; */
   justify-content: center;
   align-items: center;
   text-align: center;
   box-shadow: -10px 4px 1px rgba(0, 0, 0, 0.25);
-  /* position: relative;
-  margin-top: 50px;
-  left: 5px; */
 }
 .input_group {
   display: flex;
@@ -679,7 +641,6 @@ label {
   border: none;
   width: 140px;
   border-radius: 20px;
-  /* box-shadow: -1.2px 2.2px 3px var(--black); */
   box-shadow: inset 0 10px 15px rgba(255, 255, 255, 0.35),
     inset 0 -10px 15px rgba(0, 0, 0, 0.05),
     inset 10px 0 15px rgba(0, 0, 0, 0.05),
@@ -723,12 +684,7 @@ label {
   height: 20px;
   padding-right: 0.5%;
 }
-/* .modal{
-  border-radius: 1px solid white;
-}
-#modal::backdrop{
-  background-color: rgba(0,0,0,.55);
-} */
+
 /**********Acá termina el Main***********/
 /**********FOOTER***********/
 
@@ -738,7 +694,6 @@ footer {
   font-size: 14px;
   padding: 1rem 0;
   display: flex;
-  /* position: fixed; */
   bottom: 0;
   width: 100%;
   z-index: 4;
@@ -778,9 +733,9 @@ footer > p {
   .navigation ul {
     display: flex;
     justify-content: space-around;
-  }
-  .navigation ul li a {
-    border-radius: 10px;
+  }  
+  .navigation ul.show {
+    display: flex;
   }
   .parte01 {
     padding-top: 7.5rem;
@@ -860,7 +815,6 @@ footer > p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
   }
   .img_Desk01 {
     width: 100%;
