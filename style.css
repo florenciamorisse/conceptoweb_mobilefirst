@@ -455,7 +455,6 @@ hr:not([size]) {
 .cards_container {
   width: 100%;
   margin-top: -90px;
-  margin-left: 5px;
 }
 
 .card {
@@ -578,9 +577,14 @@ hr:not([size]) {
 .container_form {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-left: 5%;
   margin-top: 20px;
 }
+/* .columnasForm{
+  position: relative;
+  margin: 0 auto;
+} */
 form {
   padding: 40px 55px;
   box-shadow: -7px 7px 1.5px rgba(0, 0, 0, 0.3);
@@ -847,6 +851,16 @@ footer > p {
   .navigation {
     width: 25%;
   }
+  .header_oscuro{
+    height: 80px;
+  }
+  .logo_cabecera{
+    height: 70px;
+  }
+  nav ul li a{
+    font-size: 1.1rem;
+  }
+
   .parte01, 
   .parte02,
   .parte03,
@@ -858,6 +872,9 @@ footer > p {
   .desktop{
     display: block;
     margin-top: 130px;
+  }
+  .mas{
+    line-height: 56px;
   }
   /* .row {
     width: 110%;
@@ -873,14 +890,7 @@ footer > p {
     margin: 0;
   }
 
-.titulo {
-  font-family: var(--font-Hind);
-  font-weight: 600;
-  text-shadow: -4px 2px 2px rgba(0, 0, 0, 0.25);
-  font-size: clamp(2.25rem, 5vw, 3.75rem);
-  margin: 0;
-  line-height: 110%;
-}
+
 .txt {
   font-family: var(--font-Hind);
   font-size: clamp(1rem, 5vw, 1.5rem);
@@ -900,7 +910,6 @@ footer > p {
 }
 .img03 {
   position: relative;
-  /* relative para que funcione el z-index */
   margin-top: 17%;
   z-index: 3;
 }
@@ -920,6 +929,10 @@ footer > p {
 .credibilidad {
   display: flex;
 }
+.credibilidad{
+  margin-top: 30px;
+}
+
 .txt_vertical {
   text-transform: uppercase;
   writing-mode: vertical-lr;
@@ -932,40 +945,52 @@ footer > p {
   padding-top: 60px;
 }
 
-.img04,
+
 .img05 {
-  margin-top: 50px;
+  margin-top: 40px;
+  max-width: 100%;
+  height: 85%;
+  margin-left: 90px;
+}
+.img04{
+  margin-top: 114px;
   max-width: 100%;
   height: 85%;
 }
-.texto01,
+
+
+.texto01{
+  text-align: center;
+  padding: 80px 50px 0 100px;
+  justify-content: center;
+}
 .texto03 {
   text-align: center;
-  padding: 80px 0 0 100px;
+  padding: 30px 50px 0 100px;
   justify-content: center;
 }
 hr {
   width: 50%;
   background-color: var(--yellow);
   margin: auto;
-  /* padding: 2px; */
 }
 hr:not([size]) {
-  height: 2px;
+  height: 1px;
 }
 
 .flecha_verde_desk {
   position: relative;
   height: 20%;
   width: 25%;
-  left: 35%;
+  left: 39%;
   top: -145px;
 }
 .parte03Desk{
   margin-top: -250px;
 }
+
 .texto02 {
-  padding: 100px 30px 0 30px;
+  padding: 100px 20px 0 50px;
   text-align: center;
 }
 .img06 {
@@ -988,7 +1013,7 @@ hr:not([size]) {
 
 .parte05Desk {
   margin-top: 75px;
-  height: 715px;
+  height: 650px;
 }
 
 .txt_somos {
@@ -1011,7 +1036,7 @@ hr:not([size]) {
   top: -68%;
   left: 52%;
   z-index: 3;  
-  width: 73%;
+  width: 61%;
 }
 
 .titulo_diseniamos {
@@ -1020,9 +1045,12 @@ hr:not([size]) {
   font-size: 42px;
   position: relative;
   z-index: 3;
-  margin-top: -61px;
+  margin-top: 48px;
   margin-bottom: 30px;
   /* top: -12%; */
+}
+.containerCirculo{
+  margin-top: 50px;
 }
 .circulo {
   width: 26rem;
@@ -1044,11 +1072,11 @@ hr:not([size]) {
   font-family: var(--font-Montserrat);
   font-weight: 400;
   color: var(--black);
-  font-size: 1.3rem;
+  font-size: 1.2rem;
+  margin-top: -120px;
 }
 .btn2 {
   position: relative;
-  top: 14%;
 }
 .aMedida {
   font-family: var(--font-Hind);
@@ -1059,20 +1087,9 @@ hr:not([size]) {
   margin-top: -82px;
   margin-bottom: -3rem;
 }
+.servicios{
+  margin-bottom: 10px;
+}
 
 
-  /* .fraseDesk {
-    font-size: 1.4rem;
-    margin-left: 40px;
-    margin-right: 40px;
-  }
-  .titulo {
-    font-size: 3.7rem;
-    margin-top: 30px;
-    line-height: 96%;
-  }
-  .mas {
-    font-size: 6.25rem;
-    line-height: 65%;
-  } */
 }
