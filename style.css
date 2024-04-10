@@ -297,6 +297,9 @@ body {
   text-align: center;
   align-items: center;
 }
+.contacto_container{
+  color: var(--green);
+}
 .parte02 {
   padding-top: 65px;
 }
@@ -577,11 +580,9 @@ hr:not([size]) {
   justify-content: center;
   align-items: center;
   margin-top: 20px;
+  flex-direction: column;
 }
-/* .columnasForm{
-  position: relative;
-  margin: 0 auto;
-} */
+
 form {
   padding: 40px 55px;
   box-shadow: -7px 7px 1.5px rgba(0, 0, 0, 0.3);
@@ -867,7 +868,7 @@ footer > p {
   }
   .desktop{
     display: block;
-    margin-top: 130px;
+    margin-top: 80px;
   }
   .mas{
     line-height: 56px;
@@ -1086,6 +1087,20 @@ hr:not([size]) {
 .servicios{
   margin-bottom: 10px;
 }
-
-
+.servicios, .metodologia, .contacto{
+  font-size: 24px;
+}
+.contacto_container{
+  font-size: 1.2rem;
+  
+}
+.container_form{
+  flex-direction: row;
+  margin-right: 100px;
+  margin-left: 155px;
+  margin-bottom: 30px;
+}
+.contacto_msj{
+  margin: 0;
+}
 }
