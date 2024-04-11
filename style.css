@@ -50,7 +50,6 @@ body {
   width: 100%;
   position: fixed;
   z-index: 4;
-  right: 5%;
 }
 .header_claro img {
   height: 20px;
@@ -796,6 +795,11 @@ footer > p {
   .navigation {
     width: 25%;
   }
+  .header_oscuro{
+    height: 70px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
   .marco,
   .tira_imagenes {
     display: none;
@@ -1096,11 +1100,84 @@ hr:not([size]) {
 }
 .container_form{
   flex-direction: row;
-  margin-right: 100px;
-  margin-left: 155px;
+  margin-right: 15%;
+  margin-left: 20%;
   margin-bottom: 30px;
 }
 .contacto_msj{
   margin: 0;
 }
+}
+@media only screen and (min-width: 1280px){
+  .container{
+    max-width: 1100px;
+  }
+  .header_oscuro{
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .container_form{
+    width: 937px;    
+  }
+}
+@media only screen and (min-width: 1440px){
+  .header_claro{
+    right: 10%;
+  }
+  .header_oscuro{
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+  .container_form{
+    margin-left: 22%;
+  }
+  .flecha_verde_desk{
+    width: 20%;
+  }
+  .texto01{
+    padding: 130px 100px 0 100px;
+  }
+  .texto03{
+    padding-right:100px;
+  }
+}
+@media only screen and (min-width: 1600px){
+  .header_claro{
+    right: 17%;
+  }
+  .flecha_verde_desk{
+    width: 15%;
+    left: 45%;
+    top: -100px;
+  }
+  main{
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
+@media only screen and (min-width: 1920px){
+  .header_claro{
+    right: 22%;
+  }
+  .container_form{
+    margin-left: 28%;
+  }
+}
+@media only screen and (min-width: 1970px){
+  .header_oscuro{
+    padding-left: 25%;
+    padding-right: 25%;
+  }
+}
+@media only screen and (min-width: 2568px){
+  .container_form{
+    margin-left: 33%;
+  }
+  .flecha_verde_desk{
+    width: 10%;
+  }
+  .header_oscuro{
+    padding-left: 30%;
+    padding-right: 30%;
+  }
 }
