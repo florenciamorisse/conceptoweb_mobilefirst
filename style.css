@@ -669,6 +669,10 @@ label {
 .cartel {
   padding-top: 15px;
 }
+.cartel a, .cartel2 a{
+  text-decoration: none;
+  color: var(--black);
+}
 .cartel2 {
   padding-bottom: 5px;
 }
@@ -680,6 +684,7 @@ label {
   height: 20px;
   padding-right: 0.5%;
 }
+
 
 /**********Acá termina el Main***********/
 /**********FOOTER***********/
