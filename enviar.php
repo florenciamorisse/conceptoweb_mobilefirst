@@ -14,12 +14,12 @@ $var=
 				<title> Prueba de envío de correo</title>
 			</head>
 			<body>
-				<h1>Solicitud de contacto desde correo de prueba</h1>
+				<h1>Solicitud de contacto</h1>
 				<p>
-				Nombre: '.$nombre .' <br>
-				Teléfono: '.$telefono .' <br>
-				Email: '.$email.' <br>
-				Mensaje: '.$mensaje .' <br>
+					<b>Nombre:</b> '.$nombre .' <br>
+					<b>Teléfono:</b> '.$telefono .' <br>
+					<b>Email:</b> '.$email.' <br>
+					<b>Mensaje:</b> '.$mensaje .' <br>
 				</p>
 			</body>
 		</html>
