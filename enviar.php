@@ -35,7 +35,7 @@ $var=
 	$headers .= "FROM: $nombre <$email>\r\n";
 	mail( $destinatario , $asunto, $cuerpo, $headers);
 
-	echo "Correo enviado";
+	// echo "Correo enviado";
 
 	// echo "<h2> Información recibida desede PHP</h2>";
 	// echo "Nombre:".$nombre."<br/>";
