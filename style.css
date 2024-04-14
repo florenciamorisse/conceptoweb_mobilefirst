@@ -594,6 +594,12 @@ form {
     rgba(42, 41, 38, 0.27) 100%
   );
 }
+.msj_confirmacion{
+  padding-top: 10px;
+}
+.oculto{
+  display: none;
+}
 .container_redes {
   display: flex;
   justify-content: space-around;
