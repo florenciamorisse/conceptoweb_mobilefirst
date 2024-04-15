@@ -232,8 +232,8 @@ body {
   left: -20%;
 }
 .logotipo {
-  width: 70%;
-  margin-top: -4%;
+  width: 87%;
+  margin-top: -10%;
 }
 .text_hacemos {
   text-align: center;
@@ -381,8 +381,8 @@ hr:not([size]) {
 }
 
 .circulo {
-  width: 26rem;
-  height: 26rem;
+  width: 23rem;
+  height: 23rem;
   border-radius: 50%;
   background: var(--yellow);
   display: flex;
@@ -395,13 +395,13 @@ hr:not([size]) {
     inset 10px 0 15px rgba(0, 0, 0, 0.05),
     inset -10px 0 15px rgba(0, 0, 0, 0.05), 0 5px 20px rgba(0, 0, 0, 0.1);
   position: relative;
-  margin-top: 65px;
+  margin-top: 100px;
   left: 5px;
 }
 .titulo_diseniamos {
   position: relative;
-  font-size: 35px;
-  top: -98px;
+  font-size: 2rem;
+  top: -124px;
   line-height: 120%;
 }
 
@@ -432,7 +432,7 @@ hr:not([size]) {
   display: flex;
   font-family: var(--font-Hind);
   font-weight: 600;
-  font-size: 20px;
+  font-size: 1.9rem;
   align-items: center;
   justify-content: center;
   margin-top: -65px;
@@ -538,6 +538,13 @@ hr:not([size]) {
   position: relative;
   top: -13px;
 }
+.titulo_pasos{
+  font-size: 1.3rem;
+}
+.txt_pasos {
+  margin-top: 0;
+  margin-bottom: 40px;
+}
 .circulo_numeros {
   width: 4rem;
   height: 4rem;
@@ -563,10 +570,7 @@ hr:not([size]) {
   position: relative;
   top: 7px;
 }
-.txt_pasos {
-  margin-top: 0;
-  margin-bottom: 40px;
-}
+
 /**********CONTACTO**************/
 .contacto {
   margin-top: -1%;
@@ -1063,14 +1067,14 @@ footer > p {
     z-index: 3;
     margin-top: 48px;
     margin-bottom: 30px;
-    /* top: -12%; */
+    top: -154px;
   }
   .containerCirculo {
     margin-top: 50px;
   }
   .circulo {
-    width: 26rem;
-    height: 26rem;
+    width: 25rem;
+    height: 25rem;
     border-radius: 50%;
     background: var(--yellow);
     display: flex;
@@ -1089,7 +1093,7 @@ footer > p {
     font-weight: 400;
     color: var(--black);
     font-size: 1.2rem;
-    margin-top: -120px;
+    margin-top: -145px;
   }
   .btn2 {
     position: relative;
@@ -1109,10 +1113,13 @@ footer > p {
   .servicios,
   .metodologia,
   .contacto {
-    font-size: 24px;
+    font-size: 2.2rem;
   }
   .contacto_container {
     font-size: 1.2rem;
+  }
+  .titulo_pasos{
+    font-size: 1.6rem;
   }
   .container_form {
     flex-direction: row;
