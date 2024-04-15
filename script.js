@@ -43,7 +43,7 @@ btn_contacto.addEventListener("click", function close_menu_desplegable(){
 })
 
 btn_enviar.addEventListener("click", function mensaje(){
-    msj_confirmacion.classList.toggle("oculto");
+    msj_confirmacion.classList.add("msj_confirmacion");
 })
 
 // btn_abrirModal.addEventListener("click",()=>{

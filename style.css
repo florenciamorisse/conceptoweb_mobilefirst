@@ -149,7 +149,7 @@ body {
 /**********Acá termina el header***********/
 /*****************MAIN***********************/
 /**********PARTE 1**************/
-.desktop {
+.desktop, #msj_confirmacion {
   display: none;
 }
 .parte01 {
@@ -594,12 +594,14 @@ form {
     rgba(42, 41, 38, 0.27) 100%
   );
 }
-.msj_confirmacion{
-  padding-top: 10px;
-}
-.oculto{
+#msj_confirmacion{
   display: none;
 }
+.msj_confirmacion{
+  display: block;
+  padding-top: 10px;
+}
+
 .container_redes {
   display: flex;
   justify-content: space-around;

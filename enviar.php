@@ -1,4 +1,6 @@
 <?php 
+header("Location: http://www.conceptoweb.com.ar");
+
 $var=
 
 	$nombre = $_POST['name'];
