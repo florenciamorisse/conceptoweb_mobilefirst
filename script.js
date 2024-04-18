@@ -9,9 +9,6 @@ let btn_servicios = document.getElementById("btn_servicios");
 let btn_contacto = document.getElementById("btn_contacto");
 let msj_confirmacion = document.getElementById("msj_confirmacion");
 let btn_enviar = document.getElementById("enviar");
-// let btn_abrirModal= document.getElementById("enviar");
-// let btn_cerrarModal= document.getElementById("btn_cerrarModal");
-// let modal= document.getElementById("modal");
 
 bar_menu.addEventListener("click", function animateBars(){
     bar1.classList.toggle("closeline1");
@@ -45,11 +42,4 @@ btn_contacto.addEventListener("click", function close_menu_desplegable(){
 btn_enviar.addEventListener("click", function mensaje(){
     msj_confirmacion.classList.add("msj_confirmacion");
 })
-
-// btn_abrirModal.addEventListener("click",()=>{
-//     modal.showModal();
-// })
-// btn_cerrarModal.addEventListener("click",()=>{
-//     modal.closeModal();
-// } )
 
